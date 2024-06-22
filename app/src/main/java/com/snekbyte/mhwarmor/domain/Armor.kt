@@ -5,8 +5,8 @@ import java.util.Locale
 data class Armor(
     val id: Int,
     val name: String,
-    val type: String,
-    val imageUrl: String,
+    val type: Type,
+    val imageUrl: String?,
     val baseDefense: Int,
     val maxDefense: Int,
     val fireResistance: Int,
