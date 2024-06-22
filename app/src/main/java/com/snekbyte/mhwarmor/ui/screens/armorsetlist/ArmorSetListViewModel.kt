@@ -8,9 +8,10 @@ import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
+import javax.inject.Inject
 
 @HiltViewModel
-class ArmorSetListViewModel(
+class ArmorSetListViewModel @Inject constructor(
     private val repository: Repository
 ) : ViewModel() {
     private val _armorSetList = MutableStateFlow(emptyList<ArmorSet>())

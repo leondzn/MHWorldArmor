@@ -9,7 +9,7 @@ data class ArmorResponse(
     val rarity: Int,
     val defense: Defense,
     val resistances: Resistances,
-    val assets: Assets,
+    val assets: Assets?,
 ) {
     data class Defense(
         val base: Int,

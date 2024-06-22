@@ -52,6 +52,9 @@ dependencies {
     implementation(libs.androidx.fragment.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.hilt.android)
+    implementation(libs.gson)
+    implementation(libs.converter.gson)
+    implementation(libs.androidx.navigation.fragment.ktx)
     kapt(libs.dagger.hilt.android.compiler)
 
 

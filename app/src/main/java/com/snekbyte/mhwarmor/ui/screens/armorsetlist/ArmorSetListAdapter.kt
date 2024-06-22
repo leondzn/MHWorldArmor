@@ -47,16 +47,16 @@ class ArmorSetListAdapter : RecyclerView.Adapter<ArmorSetListAdapter.ViewHolder>
                 .into(imageHead)
             Glide.with(view)
                 .load(chest?.imageUrl)
-                .into(imageHead)
+                .into(imageChest)
             Glide.with(view)
                 .load(gloves?.imageUrl)
-                .into(imageHead)
+                .into(imageGloves)
             Glide.with(view)
                 .load(waist?.imageUrl)
-                .into(imageHead)
+                .into(imageWaist)
             Glide.with(view)
                 .load(legs?.imageUrl)
-                .into(imageHead)
+                .into(imageLegs)
         }
     }
 }
