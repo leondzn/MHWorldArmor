@@ -9,8 +9,10 @@ import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.snekbyte.mhwarmor.databinding.FragmentArmorSetListBinding
+import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.launch
 
+@AndroidEntryPoint
 class ArmorSetListFragment : Fragment() {
     private val viewModel: ArmorSetListViewModel by viewModels()
 
